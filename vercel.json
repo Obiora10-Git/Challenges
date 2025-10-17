@@ -1,8 +1,8 @@
   {
       "rewrites": [
-        { "source": "/app1", "destination": "/public/challenge-1/index.html" },
-        { "source": "/app2", "destination": "/public/challenge-2/index.html" },
-        { "source": "/app1/(.*)", "destination": "/public/challenge-1/$1" },
-        { "source": "/app2/(.*)", "destination": "/public/challenge-2/$1" }
+        { "source": "/challenge-1", "destination": "/public/challenge-1/index.html" },
+        { "source": "/challenge-2", "destination": "/public/challenge-2/index.html" },
+        { "source": "/challenge-1/(.*)", "destination": "/public/challenge-1/$1" },
+        { "source": "/challenge-2/(.*)", "destination": "/public/challenge-2/$1" }
       ]
     }
