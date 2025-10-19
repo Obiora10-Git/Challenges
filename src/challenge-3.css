@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 5%;
+    height: auto;
+    max-width: 100%;
+    font-family: 'Poppins';
+    
+
+}
+
+
+#sec-2{
+    max-width: 80%;
+    margin: 50px 0;
+}
+
+#sec-2 h1{
+    font-size: 8vw;
+    margin: 0px auto;
+    font-weight: 600;
+}
+
+#sec-2 p{
+    font-size: 3vw;
+    max-width: 70%;
+    margin: 50px 0;
+    font-weight: 300;
+}
+
+header div{
+    display: none;
+}
+
+.sec-1{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 0.521vw;
+    padding: 0 5%;
+}
+.img-gp{
+    max-width: 15vw;
+    max-height: 900px;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.302vw;
+}
+#img-gp-1{
+    padding-top: 12.5vw;
+    display: block;
+}
+
+#img-gp-2{
+    padding-top: 3vw;
+}
+
+#img-gp-3{
+    padding-top: 9vw;
+}
+
+#img-gp-4{
+    padding-top: 1vw;
+}
+
+#img-gp-5{
+    padding-top: 6vw;
+}
+
+.img-box{
+    height: 21vw;
+    width: 15vw;
+    border-radius: 1.563vw;
+}
+.sec-1 .img-box{
+    border-radius: 1.563vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+#img-b-1{
+    background-image: url("/assets/challenge_3_assets/8ccbf3c960a8e4982dfe1743cb6ea0dfdafde23d.png");
+}
+
+#img-b-2{
+    background-image: url("/assets/challenge_3_assets/fd6d3129c97d35725e7930a8ae4f3ed9b9fd585d.png");
+    background-clip:content-box;
+    background-position: top;
+    max-height: 14vw;
+}
+
+#img-b-3{
+    background-image: url("/assets/challenge_3_assets/4458577e42212dc7cb655e39b88188757dbd2d99.png");
+}
+
+#img-b-4{
+    background-image: url("/assets/challenge_3_assets/0d5f69b9ebacbdd87fa7b5eceed6f2f83ffec8bb.png");
+}
+
+#img-b-5{
+    background-image: url("/assets/challenge_3_assets/99eafac2f3bf70298482659f376df03d512d6eef.png");
+}
+
+#img-b-6{
+    background-image: url("/assets/challenge_3_assets/4cd9d06dea0c996adfd1213abea94cb2a32dc96d.png");
+}
+
+#img-b-7{
+    background-image: url("/assets/challenge_3_assets/1c79aaf58815a2ea90ba58161e656303be1aeba8.png");
+    background-position:right;
+}
+
+#img-b-8{
+    background-image: url("/assets/challenge_3_assets/8580b8558cfb741a025c4caf01bbf3e6eef95b0c.png");
+}
+
+#img-b-9{
+    background-image: url("/assets/challenge_3_assets/4413925fdd60c368da9e25dc81ed01a676269889.png");
+}
+
