@@ -2,9 +2,11 @@
       "rewrites": [
         { "source": "/challenge-1", "destination": "/public/challenge-1/index.html" },
         { "source": "/challenge-2", "destination": "/public/challenge-2/index.html" },
-        { "source": "/challenge-2", "destination": "/public/challenge-3/index.html" },
+        { "source": "/challenge-3", "destination": "/public/challenge-3/index.html" },
+        { "source": "/challenge-4", "destination": "/public/challenge-4/index.html" },
         { "source": "/challenge-1/(.*)", "destination": "/public/challenge-1/$1" },
         { "source": "/challenge-2/(.*)", "destination": "/public/challenge-2/$1" },
-        { "source": "/challenge-2/(.*)", "destination": "/public/challenge-3/$1" }
+        { "source": "/challenge-3/(.*)", "destination": "/public/challenge-3/$1" },
+        { "source": "/challenge-4/(.*)", "destination": "/public/challenge-4/$1" }
       ]
     }
